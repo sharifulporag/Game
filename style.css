@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Odibee Sans", cursive;
+  font-weight: 100;
+}
+body {
+  background-color: black;
+  color: white;
+}
+.container {
+  max-width: 870px;
+  margin: 0 auto;
+  box-shadow: 1px 1px 4px white;
+}
+.header-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn button {
+  font-size: 2em;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 10px;
+  margin: 1.5em;
+  cursor: pointer;
+}
+
+.header-bottom {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-bottom: 3em;
+  margin-top: 1em;
+}
+
+.hr {
+  height: 10px;
+  color: white;
+  background-color: wheat;
+}
+.unknown-Number {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background-color: wheat;
+  color: black;
+  font-size: 2em;
+  margin: auto;
+  position: relative;
+  top: -60px;
+  opacity: 0;
+}
+
+/* home section start */
+
+.home-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  top: -65px;
+}
+.number input {
+  width: 300px;
+  height: 50px;
+  margin: 1em 3em 1em 3em;
+  font-size: 30px;
+  border: none;
+  outline: none;
+}
+
+.number button {
+  font-size: 2em;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 10px;
+  margin: 1em;
+  cursor: pointer;
+  margin-left: 92px;
+}
+
+.msg p {
+  font-size: 1.4em;
+  padding: 1em;
+}
+.me {
+  font-size: 16px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  padding: 20px;
+}
+
+@media (max-width: 700px) {
+  .msg p:last-child {
+    font-size: 15px;
+  }
+  .number button {
+    margin-left: 92px;
+  }
+}
